@@ -26,7 +26,7 @@ const StarRating = () => {
                             color={ratingValue <= (hover || rating) ? '#ffc107' : '#e4e5e9'}
                         />
                     </label>
-                )
+                );
             })}
             <p>The rating is {rating}.</p>
         </div>
